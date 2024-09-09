@@ -272,12 +272,50 @@ nav{
 
 
 /*managers*/
+.section-managers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-managers__text-container{
+    display: flex;
+    flex-direction: column;
+}
 
+.section-managers__top-text > p{
+    color: #544837;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+.section-managers__main-text{
+    max-width: 486px;
+    line-height: 26px;
+}
+.section-managers__main-header{
+    color: #2F281E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin: 3px 0 22px 0;
+}
+.section-managers__bottom-text{
+    display: flex;
+    margin-top: 30px;
 
-
-
-
-
-
-
+}
+.section-managers__bottom-text > p{
+    color: #544837;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 365px;
+    margin: 0;
+    margin-left: 30px;
+}
 /*managers*/
+
