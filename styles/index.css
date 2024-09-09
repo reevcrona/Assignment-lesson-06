@@ -330,9 +330,18 @@ nav{
 
 
 /*footer*/
-
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo{
+    align-self: flex-start;
+}
 .footer__list{
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 .footer__item > a{
     color: #544837;
@@ -354,6 +363,7 @@ nav{
     line-height: 24px;
     text-align: center;
     border: none;
+    margin-top:21px;
 }
 .footer__input{
     width: 325px;
@@ -361,7 +371,11 @@ nav{
     background: #FFFFFF;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
-
+}
+.footer__sign-up-container{
+    display: flex;
+    flex-direction: column;
+    
 }
 /*footer*/
 
