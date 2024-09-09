@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0px 145px;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     background-color: #FFFFFF;
@@ -9,6 +9,13 @@ body{
 /*Nav*/
 nav{
     margin: 20px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar__main-container{
+    width:100%;
+    max-width: 1126px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,12 +85,20 @@ nav{
 
 .hero-section{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
    
-    
 }
 
-
+.hero-section__main-container{
+    width: 100%;
+    max-width: 1126px;
+    height: 496px;
+    display: flex;
+    
+    align-items: center;
+}
 .hero-section__bottom-content{
     display: flex;
     align-items: center;
