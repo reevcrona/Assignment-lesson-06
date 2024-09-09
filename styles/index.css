@@ -329,4 +329,40 @@ nav{
 /*marketers*/ 
 
 
+/*footer*/
+
+.footer__list{
+    list-style: none;
+}
+.footer__item > a{
+    color: #544837;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+}
+.footer__button{
+    color: #FFFFFF;
+    width: 131px;
+    height: 39px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+}
+.footer__input{
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+
+}
+/*footer*/
+
 
